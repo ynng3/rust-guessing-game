@@ -22,13 +22,7 @@
 
 ### 설치
 
-1. Rust 설치: Rust 공식 웹사이트에서 설치합니다.
-2. `Cargo.toml` 파일에 `rand` 크레이트를 추가합니다.
-
-```toml
-[dependencies]
-rand = "0.8"
-```
+1. Rust 설치: [Rust 공식 웹사이트의 install 메뉴](https://www.rust-lang.org/tools/install)에서 설치합니다.
 
 ### 실행
 
