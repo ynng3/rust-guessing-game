@@ -17,7 +17,7 @@ fn main() {
             println!("번호를 입력하세요 (현재 시도 횟수: {attempts})");
         } else { // 시도 횟수가 20번 이상이 되었을 때
             println!("기회를 모두 소진하여 당신이 졌습니다. (정답 번호: {goal})");
-            break;
+            break; // loop를 빠져나옵니다.
         }
 
         // 사용자가 입력한 값을 담을 가변(mut)변수
@@ -37,7 +37,7 @@ fn main() {
 
         if guess < 1 || guess > 100 { // 입력한 값이 1보다 작거나 100보다 큰 지 확인
             println!("1 ~ 100 까지의 수만 입력할 수 있습니다.");
-            break;
+            break; // loop를 빠져나옵니다.
         }
 
         attempts += 1; // 위의 유효성 검사에 통과한 경우 시도한 횟수(attempts 변수)에 1을 더합니다.
@@ -48,7 +48,7 @@ fn main() {
             Ordering::Equal => { // 추측이 비밀 숫자와 같으면
                 println!("번호를 맞췄습니다. 당신이 이겼습니다!");
                 println!("(정답 번호: {goal} / 시도한 횟수: {attempts})");
-                break; // 반복을 종료합니다.
+                break; // loop를 빠져나옵니다.
             }
         }
     }
