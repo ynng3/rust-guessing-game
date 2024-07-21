@@ -15,11 +15,6 @@
 
 ## 사용 방법
 
-### 전제 조건
-
-* Rust가 설치되어 있어야 합니다.
-* `Cargo.toml` 파일에 `rand` 크레이트를 추가해야 합니다.
-
 ### 설치
 
 1. Rust 설치: [Rust 공식 웹사이트의 install 메뉴](https://www.rust-lang.org/tools/install)에서 설치합니다.
